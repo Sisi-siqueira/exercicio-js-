@@ -44,3 +44,12 @@ switch (eightBall){
 
 }
 console.log(`resposta: ${eightBall}`)
+
+##
+//Imagine se precisássemos pedir monitores para todos em um escritório e esse escritório estivesse convenientemente organizado em forma de grade. Poderíamos usar uma função para nos ajudar a calcular o número de monitores necessários!
+
+function monitorCount(rows,columns){
+  return rows * columns
+}
+const numOfMonitors=monitorCount( 5,6)
+console.log(numOfMonitors)
